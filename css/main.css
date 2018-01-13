@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: .77em;
+  margin-bottom: .9em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  margin: auto;
+  padding-top: .75em;
+  padding-bottom: 1.5em;
+}
+
+div {
+  display: inline-block;
+}
+
+h2 {
+  font-size: .895rem;
+  font-weight: bold;
+  margin-left: .75em;
+  margin-top: .25em;
+  margin-bottom: .3em;
+}
+
+h3 {
+  font-style: italic;
+  font-size: .875em;
+  margin-left: .75em;
+  margin-top: 0;
+  margin-bottom: .3em;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1rem;
+  margin-left: .75em;
+  margin-right: 1.5rem;
+  margin-top: 0;
+  line-height: 1.5;
+  margin-bottom: 1.4em;
+}
+
+.book {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  padding-bottom: .3em;
+}
