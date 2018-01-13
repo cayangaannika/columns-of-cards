@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   margin-left: 1em;
   margin-right: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 
 *, *::before, *::after {
@@ -87,6 +87,7 @@ p {
 
 .one {
   background-color: #e2e2e2;
+  padding-bottom: 1.8em;
 }
 
 .two {
@@ -95,6 +96,7 @@ p {
 
 .three {
   background-color: #aaa;
+  padding-bottom: 1.8em;
 }
 
 .four {
