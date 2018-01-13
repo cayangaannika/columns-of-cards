@@ -92,3 +92,22 @@ p {
 .two {
   background-color: #ccc;
 }
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.btn-small {
+  padding: .45em;
+  font-size: .875rem;
+}
